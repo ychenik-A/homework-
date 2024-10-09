@@ -1,0 +1,80 @@
+.footer__inner {
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+}
+
+.footer__info {
+    max-width: 300px;
+    margin-right: 175px;
+    align-items: center;
+}
+
+.footer__logo {
+    margin-bottom: 40px;
+}
+
+.footer__logo path {
+    fill: var(--accent-bg);
+}
+
+.footer__text {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--accent-color-2);
+    margin-bottom: 64px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.footer__caption {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--accent-color-2);
+}
+
+.footer__col {
+    width: 170px;
+}
+
+.footer__col:last-child {
+    width: auto;
+}
+
+.footer__list-title {
+    font-weight: 700;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.footer__item {
+    margin-bottom: 30px;
+}
+
+.footer__link {
+    width: 200px;
+    line-height: 1.6;
+    color: var(--accent-color-2);
+
+    transition: var(--transition);
+}
+
+.footer__link:hover {
+    color: var(--accent-bg);
+}
+
+.footer__link-Hiring::after {
+    content: 'Hiring';
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 2.1;
+    color: var(--accent-bg);
+    background: #65e4a3;
+    border-radius: 120px;
+    padding: 1px 10px;
+    margin-left: 15px;
+}
